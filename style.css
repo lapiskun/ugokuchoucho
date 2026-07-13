@@ -1,0 +1,76 @@
+body {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+img{
+}
+
+.foo {
+    position: absolute;
+    width: 30px;
+}
+
+#f0 {
+    left: 400px; 
+    top: 230px;
+}
+#f1 {
+    left: 450px; 
+    top: 210px;
+}
+#f2 {
+    left: 500px; 
+    top: 260px;
+}
+#f3 {
+    left: 500px; 
+    top: 300px;
+}
+#f4 {
+    left: 600px; 
+    top: 270px;
+}
+
+body {
+  position: relative;
+}
+
+#bt0 {
+  position: absolute;
+  left: 300px;
+  top: 260px;
+  width: 100px;
+}
+
+#bt1 {
+  position: absolute;
+  left: 500px; 
+  top: 400px;
+  width: 100px;
+}
+
+#bt2 {
+  position: absolute;
+  left: 100px; 
+  top: 300px;
+  width: 150px;
+}
+
+#message {
+  position: absolute;
+  left: 20px; 
+  top: 30px;
+  width: 500px; 
+  height: 100px;
+  background-color: RGB(255, 255, 255, 0.5);
+  color: red; 
+  font-size: 30px; 
+  padding: 15px;
+}
+
