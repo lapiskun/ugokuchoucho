@@ -1,76 +1,65 @@
 body {
-  position: relative;
+position: relative;
 }
 
-.bg {
-  position: absolute;
-  top:0;
-  left:0;
+img {
+position: absolute;
+
 }
 
-img{
-}
-
-.foo {
-    position: absolute;
-    width: 30px;
-}
-
-#f0 {
-    left: 400px; 
-    top: 230px;
-}
-#f1 {
-    left: 450px; 
-    top: 210px;
-}
-#f2 {
-    left: 500px; 
-    top: 260px;
-}
-#f3 {
-    left: 500px; 
-    top: 300px;
-}
-#f4 {
-    left: 600px; 
-    top: 270px;
-}
-
-body {
-  position: relative;
+.butterfly {
+width: 90px;
 }
 
 #bt0 {
-  position: absolute;
-  left: 300px;
-  top: 260px;
-  width: 100px;
+left:360px;
+top:350px;
 }
-
 #bt1 {
-  position: absolute;
-  left: 500px; 
-  top: 400px;
-  width: 100px;
+left:150px;
+top:390px;
+}
+#bt2 {
+left:590px;
+top:430px;
 }
 
-#bt2 {
-  position: absolute;
-  left: 100px; 
-  top: 300px;
-  width: 150px;
+.foo {
+width: 35px;
+}
+
+#f0 {
+left:365px;
+top:270px;
+}
+#f1 {
+left:365px;
+top:190px;
+}
+#f2 {
+left:700px;
+top:260px;
+}
+#f3 {
+left:573px;
+top:220px;
+}
+#f4 {
+left:485px;
+top:280px;
+}
+
+#b1 {
+pointer-events: none;
 }
 
 #message {
-  position: absolute;
-  left: 20px; 
-  top: 30px;
-  width: 500px; 
-  height: 100px;
-  background-color: RGB(255, 255, 255, 0.5);
-  color: red; 
-  font-size: 30px; 
-  padding: 15px;
+position: absolute;
+left: 20px;
+top: 40px;
+background: #ffffff80;
+padding: 10px;
+color: #C71585;
+font-weight: bold;
+font-size: 22px;
 }
-

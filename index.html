@@ -1,28 +1,218 @@
 <!DOCTYPE html>
+
 <html lang="ja">
+
 <head>
-    <meta charset="utf-8">
-    <title>画像</title>
-    <link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+
+  <title>花畑の朝</title>
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <img id="b0" class="bg" src="./bg0.png" alt="花畑">
 
-    <img id="f0" class="foo" src="./foo.gif" alt="foo"></img>
-    <img id="f1" class="foo" src="./foo.gif" alt="foo"></img>
-    <img id="f2" class="foo" src="./foo.gif" alt="foo"></img>
-    <img id="f3" class="foo" src="./foo.gif" alt="foo"></img>
-    <img id="f4" class="foo" src="./foo.gif" alt="foo"></img>
 
-    <img class="bg" src="./bg1.png" alt="花畑">
+  <img id="b0" class="bg" src="./bg0.png" style="position: absolute; left: 0; top: 0;" alt="花畑">
 
-    <img id="bt0" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
-    <img id="bt1" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
-    <img id="bt2" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
-    <div id="message">花畑に蝶々がいます</div>
 
-    <script src="script.js></script>
+
+  <img id="f0" class="foo" src="./foo.gif" alt="foo"></img>
+
+  <img id="f1" class="foo" src="./foo.gif" alt="foo"></img>
+
+  <img id="f2" class="foo" src="./foo.gif" alt="foo"></img>
+
+  <img id="f3" class="foo" src="./foo.gif" alt="foo"></img>
+
+  <img id="f4" class="foo" src="./foo.gif" alt="foo"></img>
+
+
+
+  <img  id="b1" class="bg" src="./bg1.png" style="position: absolute; left: 0; top: 0;" alt="花畑">
+
+
+
+  <img id="bt0" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
+
+  <img id="bt1" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
+
+  <img id="bt2" class="butterfly" src="./butterfly.gif" alt="蝶"></img>
+
+  <div id="message">ぽかぽか陽気の穏やかな朝<br>花畑では、蝶々がのんびり飛んでいます</div>
+
+
+
+  <script src="script.js"></script>
+
+
 
 </body>
+
 </html>
+
+
+
+
+
+document.querySelectorAll('.butterfly').forEach(function (el) {
+
+  el. addEventListener('mouseover', function () {
+
+   el. style. left = (Math. random() * 800) + "px";
+
+  });
+
+});
+
+
+
+document.querySelectorAll('.foo').forEach(function (el) {
+
+  el. addEventListener('mouseover', function () {
+
+   el. style. left = (Math. random() * 300 + 400) + "px";
+
+   el. style. top = (Math. random() * 80 + 200) + "px";
+
+  });
+
+});
+
+
+
+
+
+body {
+
+  position: relative;
+
+}
+
+
+
+img {
+
+  position: absolute;
+
+
+
+}
+
+
+
+.butterfly {
+
+  width: 80px;
+
+}
+
+
+
+#bt0 {
+
+  left:370px;
+
+  top:350px;
+
+}
+
+#bt1 {
+
+  left:150px;
+
+  top:400px;
+
+}
+
+#bt2 {
+
+  left:590px;
+
+  top:430px;
+
+}
+
+
+
+.foo {
+
+  width: 28px;
+
+}
+
+
+
+#f0 {
+
+  left:365px;
+
+  top:270px;
+
+}
+
+#f1 {
+
+  left:365px;
+
+  top:190px;
+
+}
+
+#f2 {
+
+  left:690px;
+
+  top:265px;
+
+}
+
+#f3 {
+
+  left:573px;
+
+  top:220px;
+
+}
+
+#f4 {
+
+  left:465px;
+
+  top:280px;
+
+}
+
+
+
+#b1 {
+
+  pointer-events: none;
+
+}
+
+
+
+#message {
+
+  position: absolute;
+
+  left: 20px;
+
+  top: 40px;
+
+  background: #ffffff80;
+
+  padding: 10px;
+
+  color: #C71585;
+
+  font-weight: bold;
+
+  font-size: 22px;
+
+}
+
